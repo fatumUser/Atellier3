@@ -1754,7 +1754,7 @@ linear-gradient(87.57deg, #EEE2E0 8.16%, rgba(238, 226, 224, 0) 90.22%);
         font-size: 14px;
     }
     .section-home2__block-right .block-row {
-        display: block !important;
+        display: block;
     }
     .section-home2__block-right .block-row1 {
         display: flex;
