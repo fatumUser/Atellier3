@@ -46,7 +46,7 @@ for (let i = 0; i < btns1.length; i++) {
   btns1[i].addEventListener('click', function() {
     console.log('Клик по элементу:', this);
     document.getElementById("section-home2__pop-ap").style.display="none";
-    document.getElementById("section-home2__block-row3").style.display="flex";
+    document.getElementById("section-home2__block-row3").classList.add('display-flex-pc-mob-block');
     document.getElementById("section-home2__block-row2").style.display="none";
     // Ваш код здесь
   });
