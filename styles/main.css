@@ -9,7 +9,7 @@
     padding: 0;
 }
 .display-flex-pc-mob-block {
-    display: flex;
+    display: flex !important;
 }
 a {
     text-decoration: none;
@@ -1242,7 +1242,7 @@ footer .main-title {
 
 @media only screen and (max-width: 1000px) {
     .display-flex-pc-mob-block {
-        display: block;
+        display: block !important;
     }
     body {
         padding: 0;
