@@ -8,6 +8,9 @@
     margin: 0;
     padding: 0;
 }
+.display-flex-pc-mob-block {
+    display: flex;
+}
 a {
     text-decoration: none;
 }
@@ -1238,6 +1241,9 @@ footer .main-title {
 }
 
 @media only screen and (max-width: 1000px) {
+    .display-flex-pc-mob-block {
+        display: block;
+    }
     body {
         padding: 0;
     }
